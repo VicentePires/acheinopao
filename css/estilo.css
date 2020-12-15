@@ -1,0 +1,103 @@
+.titulo{
+    color: rgb(245, 211, 55);
+    font-size: 180%;
+    font-family: 'Segoe UI';
+    text-align: center;
+}
+
+#txts{
+    display: flex;
+}
+
+#txtfrente{
+    color: rgb(245, 211, 55);
+    font-size: 180%;
+    font-family: 'Segoe UI' ;
+    margin-left: 400px;
+}
+
+#esquerda{
+    color: rgb(245, 211, 55);
+    font-size: 180%;
+    font-family: 'Segoe UI' ;
+    margin-left: 160px;
+    margin-right: 85px;
+}
+
+#txtverso{
+    color: rgb(245, 211, 55);
+    font-size: 180%;
+    font-family: 'Segoe UI' ;
+    margin-left: 85px;
+    margin-right: 160px;
+}
+
+#direita{
+    color: rgb(245, 211, 55);
+    font-size: 180%;
+    font-family: 'Segoe UI' ;
+}
+
+#subtitulo{
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    font-family: 'Segoe UI' ;
+    text-align: center;
+}
+
+#saco{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    margin-right: 100px;
+}
+
+.box2{
+    display: flex;
+    justify-content: right;
+    margin: 0px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a:link{
+    text-decoration:none;
+    color:black;
+    }
+    
+    a:visited{
+    text-decoration:none;
+    color: rgb(245, 211, 55);
+    }
+    
+    a:hover{
+    text-decoration:none;
+    color:pink;
+    }
+    
+    a:active{
+        text-decoration:none;
+        }
+
+img{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+img:hover{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+        transform:scale(1.25);
+}
